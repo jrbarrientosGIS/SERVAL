@@ -4,4 +4,6 @@ Fork de [Serval](https://github.com/lutraconsulting/serval) (Lutra Consulting, G
 
 ## Instalación
 
-Descarga el ZIP del repositorio (o de Releases), y en QGIS: *Complementos → Administrar e instalar complementos → Instalar a partir de ZIP*.
+Descarga el ZIP del plugin desde [Releases](https://github.com/jrbarrientosGIS/SERVAL/releases/latest) y en QGIS: *Complementos → Administrar e instalar complementos → Instalar a partir de ZIP*.
+
+> El botón "Download ZIP" del repositorio **no** sirve para instalar directamente: el plugin está en la subcarpeta `Serval/`.

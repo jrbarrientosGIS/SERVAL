@@ -5,11 +5,11 @@ qgisMaximumVersion=4.99
 supportsQt6=True
 description=Raster editing tools
 version=4.1.0
-author=Radoslaw Pasiok for Lutra Consulting Ltd.
-email=radek.pasiok@lutraconsulting.co.uk
-about=Raster editing tools - select and apply a modification to a chosen part of a raster. Features setting a constant value (also NoData), an expression (probing other rasters and interpolation on vector and mesh layers) and applying 3x3 low-pass filter. Multiband rasters are fully supported.
-tracker=https://github.com/lutraconsulting/serval/issues
-repository=https://github.com/lutraconsulting/serval
+author=Javier Rodríguez (QGIS 4 port); original by Radoslaw Pasiok for Lutra Consulting Ltd.
+email=jrbarrientos@omicronamepro.es
+about=Raster editing tools - select and apply a modification to a chosen part of a raster. Features setting a constant value (also NoData), an expression (probing other rasters and interpolation on vector and mesh layers) and applying 3x3 low-pass filter. Multiband rasters are fully supported. Fork of the discontinued Lutra Consulting plugin, ported to QGIS 4 (Qt6) and extended with a longitudinal-profile tool for editing channel beds on DEMs.
+tracker=https://github.com/jrbarrientosGIS/SERVAL/issues
+repository=https://github.com/jrbarrientosGIS/SERVAL
 
 # End of mandatory metadata
 # Recommended items:
@@ -46,7 +46,7 @@ changelog=
 # Tags are comma separated with spaces allowed
 tags=raster, band, multiband, grid, pixel, value, cell, draw, nodata, select, selection, filter, expression
 
-homepage=https://github.com/lutraconsulting/serval/blob/master/Serval/docs/user_manual.md
+homepage=https://github.com/jrbarrientosGIS/SERVAL/blob/main/Serval/docs/user_manual.md
 category=Raster
 icon=icons/serval_icon.svg
 # experimental flag
